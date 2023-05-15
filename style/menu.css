@@ -1,0 +1,84 @@
+.menu{
+    padding-top: 2vh;
+    color: rgb(17, 17, 17, 0.8);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul{
+    
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #333;
+    font-weight: normal;
+}
+
+.menu li{
+    padding-top: 20px;
+    margin: 0 15px;
+}
+
+.menu-hd{
+    
+    color: rgb(17, 17, 17, 0.8);
+    padding-top: 0px;
+    font-size: 12px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.menu-hd ul{
+    
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-top: 2vh;
+    padding-right: 5vh;
+
+}
+
+.menu-hd a{
+    text-decoration: none;
+    color: #333;
+    font-weight: normal;
+}
+
+.menu-hd li{
+    
+    margin: 0 10px;
+}
+
+.snk-logo{
+    
+    position: absolute;
+    left: 0;
+    padding-left: 5vh;
+}
+
+.buscar-btn{
+    
+    padding-top: 18px;
+    border: 0;
+    font-size: 12px;
+    float: right;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.menu-li{
+    color: rgb(17, 17, 17, 0.8);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 48vh;
+}

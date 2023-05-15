@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;   
+}
+
+.logo{
+    position: absolute;
+    left: 0;
+    padding-left: 6vh;
+}
+
+.header{    
+    padding-left: 30vh;
+    position: relative;
+    max-width: 80px;
+}
+
+.coluna{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 80vh;
+ 
+}
+
+.caixa{
+    right: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255);
+    color: rgb(17, 17, 17,0.9);
+    text-align: center;
+    position: relative;
+    text-align: left;
+   
+}
+
+.imagem{
+     max-width: 80%;
+     max-height: 80%;
+     padding-top: 30px;
+     border-radius: 4px;
+}
+
+.button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 20px;
+    border: none;
+}
+
+.caixab{
+    background-color: rgba(255, 255, 255);
+    width: 400px;
+    height: 80%;
+    
+}
+
+h5{
+    font-size: 12px;
+    color: rgb(17, 17, 17,0.7);  
+}
+
+.btn-shop{
+    padding-top: 2vh;
+    padding-left: 4vh;
+    border: 0;
+}
+
+.buscar-btn{
+    padding-left: 21vh;
+}
+
+.slider{
+    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamanho-btn{
+    
+    columns: 2;
+    
+}
+
+.search-text{
+    width: 125px;
+    border: 0;
+
+}
